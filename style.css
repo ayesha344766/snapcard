@@ -1,0 +1,140 @@
+ .nav-link dropdown-toggle {
+    color: #ff5100;
+ }
+.dropdown-menu{
+    color: #ff5100;
+}
+
+
+
+.top-categories{
+    background-color: #f8f8f8;
+}
+.category-item p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.category-img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ff5100;
+    padding: 8px;
+    background: #fff;
+    transition: 0.3s;
+}
+.category-img:hover{
+    transform: scale(1.05);
+}
+
+
+.shopping{
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+        display: inline-flex;
+        margin-left: 70px;
+}
+.shopping1,
+.shopping2,
+.shopping3{
+    width: 50%;
+    border-radius:25% ;
+    border: double rgb(255, 94, 0);
+    margin-left:40px;
+    padding: 50px;
+    background-color: rgb(255, 171, 123) ;
+    padding-left: 50px;
+}
+.icon3 {
+        background-color:rgb(255, 94, 0);
+        border-radius: 50px;
+        padding: 5px;
+        width: 80px;
+        height: 80px;
+    }
+    .kitchen{
+        background: url(img/kitchenremodeling-.jpg);
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+  }
+  .kitchen-h1{
+    font-size: 60px;
+    padding-top: 150px;
+    color: white;
+    text-shadow: 5px 0 9px rgb(131, 0, 37), 0 5px 9px rgb(255, 94, 0);
+  }
+  .shop-btn{
+        width: 120px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 6px;
+        background-color: rgb(225, 83, 0);
+        box-shadow: 5px 0 9px rgb(131, 0, 37), 0 5px 9px rgb(255, 94, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+    }
+  .Why-SC{
+        width: 100%;
+        height: auto;
+        display: inline-flex;
+        padding-left: 20px
+    }
+    
+    .SC-1{
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+        background-color:rgb(255, 216, 178);
+        color: rgb(0, 0, 0);
+        padding: 30px;
+        margin: 20px;
+        margin-top: 10px;
+    }
+    .footer{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 17px;
+        padding-top: 30px;
+        color: rgb(253, 136, 77);
+        line-height: 30px;
+
+    }
+    a{
+        text-decoration: none;
+    }
+    li{
+        list-style-type: none;
+    }
+    
+
+    .product-card{
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .product-card:hover{
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .discount-badge{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 12px;
+    }
+    .price{
+        font-weight: 600;
+        color: #0d6efd;
+    }
+    .old-price{
+        text-decoration: line-through;
+        color: gray;
+        font-size: 13px;
+    }
+    

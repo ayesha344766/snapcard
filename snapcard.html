@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopsy Website</title>
+    
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img style="padding-left: 30px;" src="img/SC shopping Logo.png" width="350px" height="150px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+ <div class="nav justify-content-center " id="navbarSupportedContent">
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true" >
+            Categories
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-warning" href="grocery.html">Fruit & Vegetable</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-warning" href="mencloth.html">Summer & Winters Cloths</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-warning" href="footwear.html">Slippers & Shoes</a></li>
+          </ul>
+        </li>
+     <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+      <ul class="nav justify-content-ends"> 
+        <li class="nav-item">
+          <a class="nav-link text-warning" aria-current="page" href="snapcard.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning " aria-current="page" href="loginform.html">Login</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-warning " aria-current="page" href="SignUp.html">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning " aria-current="page" href="cart.html"><img src="img/Cart_Icon.svg" width="30px" height="20px">Cart</a>
+        </li>
+      </ul>
+      
+  </div>
+</nav>
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link text-warning" aria-current="page" href="Womencloths.html">Women Clothes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning" href="mencloth.html">Men Clothes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning" href="kids.html">Kids</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning " href="footwear.html">Foot Wear</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning" href="MakeUp.html">MakeUp</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning " href="KidsFootwear.html">Kids FootWear</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning" href="jwellery.html">Jwellery</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning " href="electronics.html">Electronics</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning" href="grocery.html">Grocery</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning" href="Abaya.html">Abaya</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning" href="SkinCare.html">Skin Care</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-warning" href="specialdeal.html">Special Deal</a>
+  </li>
+
+</ul>
+
+
+<div class="container text-center">
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/watches.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/Updated_Without_Logo.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/Web-01.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/winter.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+    <section class="top-categories py-5">
+      <div class="container">
+        <h1 style="text-align: center;color:  rgb(230, 77, 0)" class="text-center mb-4">Top Categories</h1>
+        <div class="row text-center g-4">
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="Womencloths.html" class="text-decoration-none text-dark">
+              <img src="img/women cloth.jpeg" class="category-img" alt="">
+              <p>Women Cloths</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="mencloth.html" class="text-decoration-none text-dark">
+              <img src="img/men cloths.jpeg" class="category-img" alt="">
+              <p>Men Cloths</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="kids.html" class="text-decoration-none text-dark">
+              <img src="img/kids cloths.jpeg" class="category-img" alt="">
+              <p>Kids</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="footwear.html" class="text-decoration-none text-dark">
+              <img src="img/women shoes.jpeg" class="category-img" alt="">
+              <p>FootWear</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="KidsFootwear.html" class="text-decoration-none text-dark">
+              <img src="img/Boys Shoes kids.webp" class="category-img" alt="">
+              <p>Kids Footwear </p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="MakeUp.html" class="text-decoration-none text-dark">
+              <img src="img/MakeUp Deals.webp" class="category-img" alt="">
+              <p>MakeUp</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="jwellery.html" class="text-decoration-none text-dark">
+              <img src="img/earring.jpg" class="category-img" alt="">
+              <p>Jwellery</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="electronics.html" class="text-decoration-none text-dark">
+              <img src="img/Washing Machine.jpeg" class="category-img" alt="">
+              <p>Electronics</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="Abaya.html" class="text-decoration-none text-dark">
+              <img src="img/abaya.jpeg" class="category-img" alt="">
+              <p>Abaya</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="grocery.html" class="text-decoration-none text-dark">
+              <img src="img/grocery.jpeg" class="category-img" alt="">
+              <p>Grocery</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="SkinCare.html" class="text-decoration-none text-dark">
+              <img src="img/Face Wash.webp" class="category-img" alt="">
+              <p>SkinCare</p>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="category-item">
+              <a href="specialdeal.html" class="text-decoration-none text-dark">
+              <img src="img/Electronics Deals.webp" class="category-img" alt="">
+              <p>Special Deals</p>
+            </div>
+          </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container my-4">
+      <div class="row g-4">
+       
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/Foundation.jpeg" class="card-img-top p-3"  width="100" height="250" alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Foundation</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                        <button class="btn btn-outline-warning w-100 btn-sm">
+                           <a href=""><li>Add To Card</li></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+       
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/Eye Shadow.jpg" class="card-img-top p-3"  width="100" height="250" alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Eye Shadow</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                         <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/Blush On.webp" class="card-img-top p-3" width="100" height="250"  alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Blush On</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                         <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/Mascara & Eyelinar.jpg" class="card-img-top p-3" width="100" height="250"  alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Mascara & Eyelinar</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                        <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        
+      </div>
+    </div> 
+
+
+    <div class="container my-4">
+      <div class="row g-4">
+       
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/Face Wash.webp" class="card-img-top p-3" width="100" height="250" alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Face Wash</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                        <button class="btn btn-outline-warning w-100 btn-sm">
+                           <a href=""><li>Add To Card</li></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+       
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/Serum.webp" class="card-img-top p-3" width="100" height="250" alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Serum</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                         <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/Facial Kit.webp" class="card-img-top p-3" width="100" height="250" alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Facial Kit</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                         <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/hand&foot.webp" class="card-img-top p-3" width="100" height="250" alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Hand & Foot Cream</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                        <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        
+
+      </div>
+    </div>
+
+    <div class="container my-4">
+      <div class="row g-4">
+       
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/earring.jpg" class="card-img-top p-3" width="100" height="250"  alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Earrings</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                        <button class="btn btn-outline-warning w-100 btn-sm">
+                           <a href=""><li>Add To Card</li></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+       
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/necklace.jpeg" class="card-img-top p-3"  width="100" height="250" alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Necklace</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                         <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/bengals.jpg" class="card-img-top p-3" width="100" height="250"  alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Bengals</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                         <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+            <div class="col-6 col-md-3">
+                <div class="card product-card position-relative">
+                    <span class="badge bg-success discout-badge">10% OFF</span>
+                    <img src="img/rings.jpg" class="card-img-top p-3" width="100" height="250" alt="">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Rings</h6>
+                        <p class="price">
+                            Rs.1000 <span class="old-price">Rs.1500</span>
+                        </p>
+
+                        <a href="" class="btn btn-outline-warning w-100 btn-sm">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+      
+       
+      </div>
+    </div> 
+
+
+
+
+           <div style="text-align: justify;
+       font-size: 20px;padding-top: 2px;" class="servh1">
+       <h1 style="text-align: center;color:  rgb(230, 77, 0)"> Shopping in a Few Taps</h1>
+       </div>
+        <div class="shopping">
+            <div class="shopping1">
+                <img src="img/Browse.svg" width="50" height="50" alt="" class="icon3">
+                <h3>Browse</h3>
+                <p>Explore a wide range of groceries, beauty picks, and everyday essentials all in one place. Whether you're here for a quick stock-up or doing your monthly groceries, scroll and find your favorites in seconds.</p>
+            </div>
+            <div class="shopping2">
+                <img src="img/Order.svg" width="50" height="50" alt="" class="icon3">
+                <h3>Order</h3>
+                <p>Once you've picked what you need, placing your order is super easy. With a quick checkout and flexible payment options, just a few taps and you're done!</p>
+            </div>
+            <div class="shopping3">
+                <img src="img/Enjoy.svg" width="50" height="50" alt="" class="icon3">
+                <h3>Enjoy</h3>
+                <p>We're carefully packing your selected groceries and daily essentials. Get ready to receive your order at your doorstep, so you can focus on what matters the most</p>
+            </div>
+        </div>
+<br><br>
+<div class="kitchen">
+        <h1 class="kitchen-h1">Latest from Home & Daily Life</h1>
+        <br>
+        <button class="shop-btn">Shop Now</button>
+    </div>
+   <br>
+            <h1 style="text-align: center;color:  rgb(230, 77, 0)">Why SnapCart?</h1>
+                <div class="Why-SC">
+            <div class="SC-1">
+                <h3>Free Delivery</h3>
+                <p>We think shopping should be budget-friendly, which is why we provide free delivery on orders over Rs. 999. Stock up on groceries or snacks without worrying about delivery fees.</p>
+            </div>
+                <div class="SC-1">
+                <h3>Easy Returns</h3>
+                <p>We know things don't always go as planned. Our hassle-free return process ensures you can shop confidently. Whether it's the wrong item or a change of heart, we'll make your return quick and easy.</p>
+            </div>
+                <div class="SC-1">
+                <h3>Call Support</h3>
+                <p>Have a question or just want to talk? Our dedicated chat support team is always here to assist you every step of the way. From placing an order to resolving any issues, we're just a message away.</p>
+            </div>
+              <div class="SC-1">
+                <h3>Up to 45% Off</h3>
+                <p>Save big with DealCart! Enjoy exclusive discounts of up to 45% on groceries, beauty items, and essentials. Shop smarter every day!</p>
+            </div>
+
+        </div>
+
+       <h1 style="text-align: center;color:  rgb(230, 77, 0);">Latest Blogs</h1>
+       <div class="container-fluid">     
+    <div class="row" style="text-align: center;width: 100%;padding-left: 40px">
+      <div class="col-sm-4 col-md-4 col-lg-4">
+       <img style="height: 360px;width: 96%;" src="img/blog_one_thumbnail.webp"/>
+       <h4>10-Minute Iftar Snack Recipes – Quick
+       & Delicious Ideas</h4>
+      </div>
+      <div class="col-sm-4 col-md-4 col-lg-4">
+       <img style="height: 360px;width: 96%;" src="img/blog_five_thumbnail.webp"/>
+       <h4>Comfortable Everyday Men's T-Shirts Online in Karachi</h4>
+      </div>
+      <div class="col-sm-4 col-md-4 col-lg-4">
+       <img style="height: 360px;width: 96%;" src="img/blog_three_thumbnail.webp"/>
+       <h4>How to maintain Energy level while fasting</h4>
+      </div>
+      </div>
+      </div>
+
+    </section>
+    <footer class="footer">
+         <div class="container-fluid">     
+        <div class="row">
+       <div class="col-sm-3 col-md-3 col-lg-3">
+        <h2 style="color: rgb(0, 255, 247);padding-left: 20px;">Our Company</h2>
+        <ul>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>Our Store Locations</li>
+          <li>Loyalty App</li>
+          <li>Careers</li>
+          <li>FAQs</li>
+          <li>Refund policy</li>
+        </ul>
+        </div>
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+        <h2 style="color: rgb(0, 255, 247);padding-left: 30px;">Help</h2>
+        <ul>
+          <li>Shopping Policy</li>
+          <li>Returns & Exchange Policy</li>
+          <li>Order Cancellation Policy</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+        </ul>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+        <h2 style="color: rgb(0, 255, 247);padding-left: 18px;">Customer Service</h2>
+        <ul>
+          <li>How To Pay Online (Guidelines)</li>
+          <li>Bulk Order Form</li>
+          <li>Sell at Chase Value</li>
+          <li>Track Your Order</li>
+          <li>Account Login</li>
+        </ul>
+        </div>
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+        <h2 style="color: rgb(0, 255, 247);">Get in Touch</h2>
+        <h3>Contact Us</h3>
+        <p>
+           HEAD OFFICE
+          <br>2nd Floor, Plot 19-A, Sector 16,
+          <br> Main Korangi Road, Korangi Industrial Area,
+          <br> Karachi, 74900
+        </p>
+        </div>
+        </div>
+        <a href="https://www.facebook.com/"><img style="margin-left: 400px;" src="img/3225194_app_facebook_logo_media_popular_icon.png"/></a>
+          <a href="https://pk.linkedin.com/"><img style="margin-left: 100px;" src="img/317750_linkedin_icon.png"/></a>
+          <a href="https://x.com/"><img style="margin-left: 100px;" src="img/3225183_app_logo_media_popular_social_icon.png"/></a>
+          <a href="https://www.instagram.com/"><img style="margin-left: 100px;" src="img/3225191_app_instagram_logo_media_popular_icon.png"/></a>
+        </div>
+      <br>
+       <p style="color:rgb(0, 0, 0);padding: 15px;padding-left: 50px; background-color: orangered;">SnapCart &copy; Copy Right All Right Reserved 2025</p>
+   </footer>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
